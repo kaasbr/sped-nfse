@@ -21,7 +21,7 @@
             "url": "https://github.com/kaasbr/sped-common.git"
         }
     ],
-    "name": "nfephp-org/sped-nfse",
+    "name": "kaasbr/sped-nfse",
     "type": "library",
     "description": "API para geração e comunicação da NFSe com as Prefeituras.",
     "keywords": ["nfse", "sped", "nfephp"],
