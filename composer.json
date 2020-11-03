@@ -1,4 +1,26 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-da.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-gtin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-nfe.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-nfse.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-common.git"
+        }
+    ],
     "name": "nfephp-org/sped-nfse",
     "type": "library",
     "description": "API para geração e comunicação da NFSe com as Prefeituras.",
@@ -19,7 +41,7 @@
     ],
     "require": {
         "php" : "~5.6|~7.0",
-        "nfephp-org/sped-common" : "^5.0"
+        "nfephp-org/sped-common" : "dev-master"
     },
     "require-dev": {
      "squizlabs/php_codesniffer": "^2.8",
